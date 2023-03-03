@@ -81,3 +81,55 @@ text-decoration: none;
     border-style: none;
 }
 
+/* Carousel */
+
+.carousel{
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    justify-content:space-evenly;
+
+    padding:50px 20%;
+}
+
+.carousel-header{
+    font-size:36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding:20px 0px;
+}
+
+.carousel-tiles{
+    display:flex;
+    gap:40px;
+    row-gap: 20px;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.tile{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+
+
+}
+
+.carousel-image{
+    height: 150px;
+    width:150px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid blue;
+    padding:2px;
+}
+
+.carousel-text{
+    inline-size: 150px;
+    text-align: center;
+}
