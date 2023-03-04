@@ -206,3 +206,13 @@ text-decoration: none;
     font-size:18px;
     align-self: center;
 }
+
+/* Footer */
+
+.footer{
+    color:#f9faf8;
+    margin:0px;
+    padding:25px 20px;
+    background-color: #1F2937;
+    text-align: center;
+}
