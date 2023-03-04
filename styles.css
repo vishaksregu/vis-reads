@@ -90,8 +90,8 @@ text-decoration: none;
     align-items:center;
     gap:20px;
     justify-content:space-evenly;
-
     padding:50px 20%;
+    padding-bottom:100px;
 }
 
 .carousel-header{
@@ -142,7 +142,7 @@ text-decoration: none;
     background-color: #e5e7eb;
     width:100%;
     box-sizing: border-box;
-    padding:100px 20%;
+    padding:150px 20%;
     justify-content: center;
     align-items:center;
     gap:20px;
@@ -161,4 +161,48 @@ text-decoration: none;
     padding:0px 20px;
     font-size:18px;
     font-weight:800;
+}
+
+/* Banner Area */
+
+.banner{
+    width:80%;
+    margin: 100px 10%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding:50px 10%;
+    display:flex;
+    justify-content: space-between;
+    gap:60px
+}
+
+.banner-text{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    width:500px
+}
+
+.banner-title{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.banner-subtitle{
+    font-weight:500;
+    font-size:18px;
+}
+
+.banner-button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius:10px;
+    padding:10px 40px;
+    color:white;
+    font-weight: 800;
+    font-size:18px;
+    align-self: center;
 }
